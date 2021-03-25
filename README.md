@@ -3,17 +3,17 @@
 
 ## Description
 ### Problem A: 
-Create Mandelbrot set by divinding into N parts, where each calculate has an individual painting work. Implemented by havig each part of the work assigned to a thread that return to main thread, which paints the results. 
+Create Mandelbrot set by dividing into N parts, where each calculates has an individual painting work. Implemented by having each part of the work assigned to a thread that returns to the main thread, which paints the results. 
 
 ### Problem B:
 Control the traffic over a 2-way bridge, so that:
 - There are no cars moving both ways
-- There are no more than N cars on the brigde at any time
-- There can't be any car waiting for ever
+- There are no more than N cars on the bridge at any time
+- There can't be any car waiting forever
 Implemented with 2 threads in each entrance of the bridge, by using semaphores.
 
 ### Problem C:
-A roller coaster fits N passengers and starts only when it's full. Passengers get of when the roller coaster has finished the ride and before the new passengers come. Implemented a sychronization between passengers and roller coaster, where there is one thread for passenger and one for roller coaster.
+A roller coaster fits N passengers and starts only when it's full. Passengers get off when the roller coaster has finished the ride and before the new passengers come. Implemented a synchronization between passengers and roller coaster, where there is one thread for passenger and one for the roller coaster.
 
 ## Prerequisites
 - C
@@ -21,7 +21,7 @@ A roller coaster fits N passengers and starts only when it's full. Passengers ge
 - GCC (sudo apt install gcc)
 
 ## How to run
-On terminal run `make` to build the executable C program.  
+On terminal, run `make` to build the executable C program.  
 Start each problem's program with `./[program name]`.
 
 ## Authors
